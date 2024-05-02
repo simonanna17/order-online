@@ -19,20 +19,23 @@ h1 {
 
 .submit {
     background:goldenrod;
-    color:white;
+    color:black;
     border: none;
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 16px;
+    font-size: 20px;
     text-transform: uppercase;
     padding: 2%;
     margin: 5%;
+    margin-bottom: 0;
+    border-radius: 10%;
+    
 }
 
 .info{
     display: inline-block;
-    float: center;
+    
     clear: center;
     width: 250px;
     text-align: left;
@@ -41,7 +44,7 @@ h1 {
 .cards{
     
     display: inline-block;
-    float: center;
+    
     clear: center;
     width: 250px;
     text-align: left;
@@ -49,8 +52,24 @@ h1 {
 
 .foodItem{
     display: inline-block;
-    float: center;
+    
     clear: center;
     width: 250px;
     text-align: left;
+}
+
+.cash, .card{
+    background:goldenrod;
+    color:black;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    text-transform: uppercase;
+    padding: 2%;
+    margin: 5%;
+    margin-bottom: 0;
+    border-radius: 10%;
+    font-weight: 500;
 }
